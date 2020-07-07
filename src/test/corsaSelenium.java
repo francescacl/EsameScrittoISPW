@@ -33,11 +33,8 @@ public class corsaSelenium {
 		Float t1 = (20000*3600)/n1; // t = x/v
 		Float t2 = (20000*3600)/n2;
 		
-		System.out.println(t2-t1);
-		
 		Float t = (t2-t1)/60; // tempo risparmiato in minuti
-		
-		System.out.println(t);
+
 		driver.close();
 
 		return t;
